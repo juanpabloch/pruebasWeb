@@ -1,7 +1,11 @@
 
 let circle = document.getElementById('circle');
-const onMouseMove = (e) =>{
-  circle.style.left = e.pageX + 'px';
-  circle.style.top = e.pageY + 'px';
-}
-document.addEventListener('mousemove', onMouseMove);
+
+document.addEventListener("mousemove", (e)=>{
+  let x = e.clientX
+  let y = e.clientY
+  circle.style.left = x + "px"
+  circle.style.top = y + "px"
+    console.log("WIDTH", screen.width)
+    console.log("HEIGHT", screen.height)
+})

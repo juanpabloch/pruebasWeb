@@ -4,10 +4,26 @@
     box-sizing: border-box;
 }
 
-body{
-
+.content{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1{
+  text-align: center;
   color: red;
+  margin-top: 50px;
+}
+
+p{
+  font-size: 2rem;
+  margin: 50px;
+}
+
+h2{
+  font-size: 7rem;
+  color: rgb(141, 141, 141);
 }
