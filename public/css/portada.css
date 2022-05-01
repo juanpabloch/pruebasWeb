@@ -27,16 +27,17 @@ video{
 }
 
 a{
-    background-color: rgba(255, 255, 255, 0.37);
+    background-color: rgba(63, 63, 63, 0.37);
     border-radius: 50%;
     padding: 65px 30px;
     font-size: 1.2rem;
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.874);
     text-decoration: none;
-    transition: 100ms;
+    letter-spacing: 2px;
     border: 2px solid rgba(0, 0, 0, 0.51);
+    transition: 100ms;
 }
 
 #circle{

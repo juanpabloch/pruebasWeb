@@ -6,6 +6,4 @@ document.addEventListener("mousemove", (e)=>{
   let y = e.clientY
   circle.style.left = x + "px"
   circle.style.top = y + "px"
-    console.log("WIDTH", screen.width)
-    console.log("HEIGHT", screen.height)
 })
